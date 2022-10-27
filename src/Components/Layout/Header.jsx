@@ -8,8 +8,8 @@ import {FaTelegramPlane} from 'react-icons/fa';
 function Header() {
   return (
     <div className='header'>
-        <nav className="navbar navbar-expand-lg uppernav ">
-        <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg uppernav py-4">
+        <div className="container-fluid position-fixed navbar-container">
         <div className="dropdown">
             <div>
 
