@@ -25,19 +25,19 @@ function Calculator() {
                     <h4>
                       <b className="price">SAFUU Price</b>
                     </h4>
-                    <h3>$1.53</h3>
+                    <h3 style={{color:"white"}}>$1.53</h3>
                   </div>
                   <div>
                     <h4>
                       <b className="price">Current APY</b>
                     </h4>
-                    <h3>383,025.8%</h3>
+                    <h3 style={{color:"white"}}>383,025.8%</h3>
                   </div>
                   <div>
                     <h4>
                       <b className="price">Your SAFUU Balance</b>
                     </h4>
-                    <h3>0 SAFUU</h3>
+                    <h3 style={{color:"white"}}>0 SAFUU</h3>
                   </div>
                 </div>
               </div>{" "}
