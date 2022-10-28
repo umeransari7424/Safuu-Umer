@@ -10,7 +10,7 @@ function Dashboard() {
 
                 </div>
                 
-                <div className="col-md-7 py-5  ">
+                <div className="col-md-7 py-5 dashboardcards ">
                     <div className="card py-2 mt-3" style={{width:"600px"}}>
                         <span className='market'>Market Value of Treasury Asset</span>
                         <span className='marketval'>$58,734,873</span>

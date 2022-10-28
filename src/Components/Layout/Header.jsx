@@ -4,10 +4,22 @@ import React from 'react'
 // import { AiFillTwitterSquare} from 'react-icons/ai';
 import {BsDiscord,BsMedium,BsTwitter} from 'react-icons/bs';
 import {FaTelegramPlane} from 'react-icons/fa';
+import Drawer from '../Elements/Drawer';
+// import Sidebar from './Sidebar';
 
 function Header() {
   return (
     <div className='header'>
+      <div className='container-fluid header2'>
+<Drawer />
+      
+      
+</div>
+
+<div className='header1'>
+
+
+
         <nav className="navbar navbar-expand-lg uppernav py-4">
         <div className="container-fluid position-fixed navbar-container">
         <div className="dropdown">
@@ -33,7 +45,7 @@ function Header() {
                   aria-current="page"
                   href="/"
                 >
-                  <BsTwitter size={"30px"} />
+                  <BsTwitter size={"20px"} />
                 </a>
               </li>
               &nbsp; &nbsp;
@@ -44,7 +56,7 @@ function Header() {
                   aria-current="page"
                   href="/"
                 >
-                  <BsDiscord size={"30px"}/>
+                  <BsDiscord size={"20px"}/>
                 </a>
               </li>{" "} &nbsp; &nbsp;
               <li className="nav-item">
@@ -53,7 +65,7 @@ function Header() {
                   aria-current="page"
                   href="/"
                 >
-                  <FaTelegramPlane size={"30px"} style={{backgroundColor:"011101",color:"white"}}/>
+                  <FaTelegramPlane size={"20px"} style={{backgroundColor:"011101",color:"white"}}/>
                 </a>
               </li> &nbsp; &nbsp;
               
@@ -64,7 +76,7 @@ function Header() {
                   aria-current="page"
                   href="/"
                 >
-                  <BsMedium size={"30px"}/>
+                  <BsMedium size={"20px"}/>
                 </a>
               </li>
               &nbsp; 
@@ -76,6 +88,7 @@ function Header() {
 
         </div>
       </nav>
+      </div>
       
     </div>
   )

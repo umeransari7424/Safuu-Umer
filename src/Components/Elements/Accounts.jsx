@@ -10,7 +10,7 @@ function Accounts() {
 
                 </div>
                 
-                <div className="col-md-8 py-5  ">
+                <div className="col-md-8 py-5  accountcards">
                     <div className="card py-2 mt-3" style={{width:"800px"}}>
                         <span className='market'>Your Balance</span>
                         <span className='accountval'>$0</span>
@@ -50,11 +50,11 @@ function Accounts() {
 
                         <div className='d-flex justify-content-between px-4 pt-3'>
                         <h5 >ROI(1-Day Rate) USD</h5>
-                        <div className='market'>$0</div>
+                        <h5 className='market'>$0</h5>
                         </div>
 
                         <div className='d-flex justify-content-between px-4 pt-3'>
-                        <h5 h5>ROI(5-Day Rate)</h5>
+                        <h5 >ROI(5-Day Rate)</h5>
                         <h5 className='market'>11.96%</h5>
                         </div>
 
